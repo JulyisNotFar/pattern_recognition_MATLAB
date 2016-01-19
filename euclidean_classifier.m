@@ -1,4 +1,4 @@
-% Example 1.4.1
+% Example 1.4.1 step1
 function [value]=euclidean_classifier(means_vector,variables)
 distance1=(means_vector(:,1)-variables)'*(means_vector(:,1)-variables);
 distance2=(means_vector(:,2)-variables)'*(means_vector(:,2)-variables);
